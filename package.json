@@ -4,33 +4,33 @@
   }
 }
 
-"trip name" ["Scotland"] 
+"trip name":{"Scotland"}
 
-"traveler" {
-  [
-    {"name": "name",}
-    {"contact" [
+{
+  "traveler":[
+    {"name": "name",},
+    {"contact" {
       "email": "email@address.com",
-      "phone": "987-654-3210"
-      ]
+      "phone": "987-654-3210"}
     }
-  ] 
-}
+  ],
 
-"destinations" {
-  "location": "Culzean Castle and Country Park",
-  "activities": {
-    ["title": "Castle Tour",
-    "time": "11:30 AM"],
-    ["title": "Explore Walled Garden",
-    "time": "4:00 PM"],
-  },
-  
-  "location": "Dunvegan Castle and Gardens",
-  "activities": {
-    ["title": "Seal Trip",
-    "time": "10:00 AM"],
-    ["title": "Halloween Trail",
-    "time": "4:30 PM"]
-  }
+
+  "destinations":[
+    "location": "Culzean Castle and Country Park",
+    "activities": [
+      ["title": "Castle Tour",
+      "time": "11:30 AM"],
+      ["title": "Explore Walled Garden",
+      "time": "4:00 PM"],
+    ]
+    
+    "location": "Dunvegan Castle and Gardens",
+    "activities": [
+      {"title": "Seal Trip",
+      "time": "10:00 AM"},
+      {"title": "Halloween Trail",
+      "time": "4:30 PM"}
+    ]
+  ]
 }
