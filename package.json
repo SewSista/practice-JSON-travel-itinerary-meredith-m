@@ -31,3 +31,47 @@
     }
   ]
 }
+
+
+{
+"trip name2":"lousiana",
+"Flight": [
+{"AirLine":"Delta Airlines",
+"FlightNumber":"DL 1234",
+"Departure":"st. louis to new orleans",
+"DepartureTime":"10:00 AM",
+"Cost":"$350.00"
+}
+
+]
+  "traveler"[
+    {"name": "name"},
+    {"contact": {
+      "email": "email@address.com",
+      "phone": "987-654-3210"}
+    }
+  ],
+
+  "destinations":[
+    {"location": "French Quarter"},
+    
+    {"activities": [
+      [{"title": "FRENCH QUARTER TOUR"},
+      {"time": "11:30 AM"}],
+      [{"title": "Napoleon House Restaurant"},
+      {"time": "4:00 PM"}]
+      ]
+    },
+
+    {"location": "Irish Bayou"},
+    
+    {"activities": [
+      [{"title": "Fisherman's castle"},
+      {"time": "10:00 AM"}],
+      [{"title": "Hike the Bayou"},
+      {"time": "4:30 PM"}]
+      ]
+    }
+  ]
+}
+
